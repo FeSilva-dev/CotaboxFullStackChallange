@@ -1,0 +1,134 @@
+.dataOwners{
+    padding: 80px 0;
+}
+
+#container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.title p{
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.search .form-search input{
+    width: 250px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.search .button-search button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: none;
+}
+
+.information{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information .table{
+    width: 50%;
+}
+
+
+.information .graphic{
+    width: 50%;
+}
+
+.information .table table{
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.information .table table thead tr th {
+    border: 1px solid black;
+    color: #c0c0c0;
+    width: 130px;
+    padding: 8px 10px;
+}
+
+.information .table table thead tr th:first-child{
+    padding: 4 8pxpx;
+    width: 0;
+    text-align: center;
+}
+
+.information .table table tbody tr td {
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+
+.information .table table tbody tr td:first-child{
+    padding: 4px 8px;
+    width: 0;
+    text-align: center;
+}
+
+.information .table table tbody tr td:last-child{
+    padding: 4px 8px;
+    width: 0;
+    text-align: center;
+    border: 0;
+}
+
+.delete{
+    cursor: pointer;
+    color: red;
+}
+
+@media(max-width:768px){
+    #container{
+        padding: 0 2%;
+    }
+    .title p{
+        max-width: 500px;
+        margin: 5px auto;
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .information .table{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .information .graphic{
+        margin-top: 40px;
+        width: 100%;
+    }
+}
